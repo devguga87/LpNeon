@@ -18,6 +18,16 @@
     background-color:$brand-light-blue;
     color:#fff;
   }
+
+  &.white{
+    border:1px solid white;
+    color:#fff;
+
+    &:hover{
+      background-color: white;
+      color:$brand-green-light;
+    }
+  }
 }
 
 .btn-primary,
